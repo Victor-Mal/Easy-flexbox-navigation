@@ -8,7 +8,6 @@ header {
     height: 100vh;
     background-size: cover;
     color: #fff;
-    font-size: 8px;
     font-weight: bolder;
 }
 
@@ -39,11 +38,10 @@ ul {
     border: solid white;
     border-radius: 3px;
     padding: 5px 15px;
-    font-size: 6px;
     margin: 10px 0;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:520px) {
     .nav {
         display: flex;
         flex-flow: column;
