@@ -1,8 +1,51 @@
-body {padding: 0;
+body {
+    padding: 0;
     margin: 0;
 }
+
 header {
     background-image: url(../image/background.jpg);
     height: 100vh;
     background-size: cover;
+    color: #fff;
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+.nav {
+    padding: 0 15px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+}
+
+.nav-list, .wrapper {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link, .nav-contact {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.nav-contact {
+    border: solid white;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 6px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:320px) {
+    .nav {
+        display: flex;
+        flex-flow: column;
+    }
 }
